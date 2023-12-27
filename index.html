@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Duplex</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <!-- STYLES -->
+
+  <!-- META -->
+  <meta name="description" content="frontend">
+  <meta name="keywords" content="html, css">
+</head>
+
+<body>
+  <div class="page" id="page">
+
+    <!-- TOP-BAR -->
+    <div class="top-bar">
+
+      <div class="inner">
+        <div class="top-bar__wrap">
+          <nav class="top-bar__nav" aria-label="Secondary">
+            <ul class="top-bar__menu">
+              <li class="top-bar__menu-item"><a href="#" class="top-bar__menu-link">home</a></li>
+              <li class="top-bar__menu-item"><a href="#" class="top-bar__menu-link">elements</a></li>
+              <li class="top-bar__menu-item"><a href="#" class="top-bar__menu-link">full width</a></li>
+              <li class="top-bar__menu-item"><a href="#" class="top-bar__menu-link">archives</a></li>
+              <li class="top-bar__menu-item"><a href="#" class="top-bar__menu-link">contact</a></li>
+              <li class="top-bar__menu-item top-bar__menu-item--active top-bar__menu-item--arrow"><a href="#"
+                  class="top-bar__menu-link">dropdowns</a>
+                <ul class="top-bar__submenu">
+                  <li class="top-bar__submenu-item"><a href="#" class="top-bar__submenu-link">WordPress 3.0+</a></li>
+                  <li class="top-bar__submenu-item"><a href="#" class="top-bar__submenu-link">custom</a></li>
+                  <li class="top-bar__submenu-item"><a href="#" class="top-bar__submenu-link">pre 3.0 fallback</a></li>
+                  <li class="top-bar__submenu-item"><a href="#" class="top-bar__submenu-link">custiom</a></li>
+                </ul>
+              </li>
+              <li class="top-bar__menu-item"><a href="#" class="top-bar__menu-link top-bar__menu-link--left-padding">buy
+                  this</a></li>
+            </ul>
+          </nav>
+          <div class="rss">
+            <span class="rss__text">subscribe by
+              <a class="rss__link-rss" href="#">rss</a> or
+              <a class="rss__link-email" href="#">Login</a></span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- POPUP -->
+      <div class="popup">
+        <div class="popup__inner">
+
+          <!-- AUTH-FORM -->
+          <form action="" class="form" name="auth-form">
+            <div class="form__auth">
+
+              <label class="form__label form__label--email" tabindex="0" aria-label="Your email">
+                <input type="email" class="form__input" required placeholder="type your e-mail..." required>
+              </label>
+
+              <label class="form__label" tabindex="0" aria-label="Your password">
+                <input type="password" class="form__input form__pass" required placeholder="type your password...">
+              </label>
+
+              <label class="form__label" tabindex="0" aria-label="Confirm your password">
+                <input type="password" class="form__input form__pass" required placeholder="confirm your password...">
+              </label>
+
+              <button class="button popup__button"><span class="button__text" tabindex="0">Subscribe</span></button>
+            </div>
+
+            <!-- regiatration -->
+            <div class="registration">
+              <a href="" class="registration__btn registration__btn--facebook" aria-label="facebook.com">Facebook</a>
+              <a href="" class="registration__btn registration__btn--twitter" aria-label="twitter.com">Twitter</a>
+              <a href="" class="registration__btn registration__btn--instagram" aria-label="Instagram.com">Instagram</a>
+              <a href="" class="registration__btn registration__btn--github" aria-label="Github.com">Github</a>
+              <button href="" class="registration__btn registration__btn--reg" aria-label="Rgistration"><span
+                  class="registration__text">Register</span></button>
+            </div>
+
+            <button class="button popup__close" aria-label="Close registartion form"></button>
+            <!-- /registration -->
+          </form>
+          <!-- AUTH-FORM -->
+
+        </div>
+      </div>
+      <!-- POPUP -->
+
+    </div>
+    <!-- TOP-BAR -->
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <div class="inner">
+        <div class="header__wrap">
+          <a class="logo" href="/">
+            <img class="logo__img" src="img/logo.png" alt="Logo Duplex" width="238px" height="50px">
+          </a>
+          <div class="header__banner">
+            <img src="img/banner.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- NAVIGATION -->
+    <nav class="navigation" aria-label="Prymari">
+      <div class="inner">
+
+        <ul class="navigation__menu">
+          <li class="navigation__item"><a href="#" class="navigation__link">home</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link navigation__link--arrow">Frontend</a>
+
+
+            <!-- SUBMENU -->
+            <ul class="navigation__submenu">
+              <li class="navigation__submenu-item"><a href="" class="navigation__submenu-link">HTML</a></li>
+              <li class="navigation__submenu-item"><a href="" class="navigation__submenu-link">CSS</a></li>
+              <li class="navigation__submenu-item"><a href="" class="navigation__submenu-link">javascript</a></li>
+              <li class="navigation__submenu-item"><a href="" class="navigation__submenu-link">angular</a></li>
+              <li class="navigation__submenu-item"><a href="" class="navigation__submenu-link">react.js</a></li>
+              <li class="navigation__submenu-item"><a href="" class="navigation__submenu-link">frontend-events</a></li>
+              <li class="navigation__submenu-item"><a href="" class="navigation__submenu-link">frontend news</a></li>
+            </ul>
+            <!-- SUBMENU -->
+
+          </li>
+          <li class="navigation__item"><a href="#" class="navigation__link">lifestyle</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">world news</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">sport </a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">travel</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">health</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">finance</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">weird</a></li>
+          <li class="navigation__item"><a href="#" class="navigation__link">celebrity</a></li>
+        </ul>
+
+      </div>
+    </nav>
+    <!-- NAVIGATION -->
+
+    <!-- MAIN -->
+    <main class="content" id="content" aria-label="Content">
+      <div class="inner">
+
+        <!-- LATEST -->
+        <section class="latest">
+          <div class="latest__wrap">
+
+            <div class="latest__image">
+              <img src="img/gallery/front-end01.jpg" alt="" class="latest__img">
+            </div>
+            <div class="latest__post-info">
+              <div class="latest__bredcrumb">
+                <ul class="breadcrumb-menu">
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link"><span>//</span> ormanclark</a>
+                  </li>
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link"><span>//</span><time pubdate datetime="2010-08-04"> august
+                        4
+                        2010</time></a>
+                  </li>
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link"><span>//</span> 8comments</a>
+                  </li>
+                </ul>
+              </div>
+              <h1 class="latest__title" tabindex="0"> Front End Days "HTML CSS Javascript"</h1>
+              <p>
+                In software architecture, there may be many layers between the hardware and end user. Each can be spoken
+                of as having a
+                front end and a back end. The front is an abstraction, simplifying the underlying component by providing
+                a user-friendly
+                interface, while the back usually handles business logic and data storage.
+              </p>
+              <div class="latest__thumbs thumbs">
+                <div class="thumbs__wrap">
+                  <div class="thumbs__minipic">
+                    <img class="thumbs__minipic-img" src="img/gallery/front-end01.jpg" alt="" tabindex="0">
+                  </div>
+                  <div class="thumbs__minipic">
+
+                    <img class="thumbs__minipic-img" src="img/gallery/front-end02.jpg" alt="" tabindex="0">
+                  </div>
+                  <div class="thumbs__minipic">
+
+                    <img class="thumbs__minipic-img" src="img/gallery/front-end03.jpg" alt="" tabindex="0">
+                  </div>
+                  <div class="thumbs__minipic">
+
+                    <img class="thumbs__minipic-img" src="img/gallery/front-end04.jpg" alt="" tabindex="0">
+                  </div>
+                  <div class="thumbs__minipic">
+
+                    <img class="thumbs__minipic-img" src="img/gallery/front-end05.jpg" alt="" tabindex="0">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </section>
+        <!-- LATEST -->
+
+        <!-- FEATURED -->
+        <section class="featured">
+
+          <div class="featured__wrap">
+
+            <div class="post">
+              <div class="image">
+                <img src="" alt="">
+              </div>
+              <a href="#" class="post__title-link">
+                Fly Fishers Serving as Transports <br>
+                for Noxious Little Inviders
+              </a>
+              <div class="post__bredcrumb">
+                <ul class="breadcrumb-menu">
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link"><span>//</span><time pubdate datetime="2014-12-08">
+                        december 8
+                        2014</time></a>
+                  </li>
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link">// 10 comments</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="post">
+              <div class="image">
+                <img src="" alt="">
+              </div>
+              <a href="#" class="post__title-link">
+                Fly Fishers Serving as Transports <br>
+                for Noxious Little Inviders
+              </a>
+              <div class="post__bredcrumb">
+                <ul class="breadcrumb-menu">
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link"><span>//</span><time pubdate datetime="2015-03-15"> march
+                        15
+                        2015</time></a>
+                  </li>
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link"><span>//</span> 3 comments</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="post">
+              <div class="image">
+                <img src="" alt="">
+              </div>
+              <a href="#" class="post__title-link">
+                Fly Fishers Serving as Transports <br>
+                for Noxious Little Inviders
+              </a>
+              <div class="post__bredcrumb">
+                <ul class="breadcrumb-menu">
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link">
+                      <spna>//</spna><time pubdate datetime="2017-02-24"> february 24
+                        2017</time>
+                    </a>
+                  </li>
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link"><span>//</span> 10 comments</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="post">
+              <div class="image">
+                <img src="" alt="">
+              </div>
+              <a href="#" class="post__title-link">
+                Fly Fishers Serving as Transports <br>
+                for Noxious Little Inviders
+              </a>
+              <div class="post__bredcrumb">
+                <ul class="breadcrumb-menu">
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link"><span>//</span><time pubdate datetime="2018-04-04"> april 4
+                        2018</time></a>
+                  </li>
+                  <li class="breadcrumb-menu__item">
+                    <a href="" class="breadcrumb-menu__link">
+                      <sapn>// 5 comments
+                      </sapn>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+        </section>
+        <!-- FEATURED -->
+
+        <!-- CATEGORIES -->
+        <section class="categories">
+
+          <div class="categories__wrap">
+
+            <div class="categories__news">
+
+              <!-- NEWS-BLOCK -->
+              <div class="news-block">
+                <article class="news">
+                  <div class="news__wrap">
+                    <div class="news__post">
+                      <div class="news__class">
+                        <a href="">
+                          <h3 class="news__headline">Finance</h3>
+                        </a>
+                        <a href="" class="news__link-more">view more...</a>
+                      </div>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__header">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="news">
+                  <div class="news__wrap">
+                    <div class="news__post">
+                      <div class="news__class">
+                        <a href="">
+                          <h3 class="news__headline">world news</h3>
+                        </a>
+                        <a href="" class="news__link-more">view more...</a>
+                      </div>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__header">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="news">
+                  <div class="news__wrap">
+                    <div class="news__post">
+                      <div class="news__class">
+                        <a href="">
+                          <h3 class="news__headline">sport</h3>
+                        </a>
+                        <a href="" class="news__link-more">view more...</a>
+                      </div>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__header">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+
+              <div class="news-block">
+                <!-- NEWS -->
+
+                <article class="news">
+                  <div class="news__wrap">
+                    <div class="news__post">
+                      <div class="news__class">
+                        <a href="">
+                          <h3 class="news__headline">politics</h3>
+                        </a>
+                        <a href="" class="news__link-more">view more...</a>
+                      </div>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__header">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="news">
+                  <div class="news__wrap">
+                    <div class="news__post">
+                      <div class="news__class">
+                        <a href="">
+                          <h3 class="news__headline">lifestyle</h3>
+                        </a>
+                        <a href="" class="news__link-more">view more...</a>
+                      </div>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__header">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="news">
+                  <div class="news__wrap">
+                    <div class="news__post">
+                      <div class="news__class">
+                        <a href="">
+                          <h3 class="news__headline">culture</h3>
+                        </a>
+                        <a href="" class="news__link-more">view more...</a>
+                      </div>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__header">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                      <div class="image">
+                        <img src="" alt="">
+                      </div>
+
+                      <h4 class="news__title">Fly Fishers Serving as Transports for Noxious</h4>
+
+                      <div class="news__bredcrumb">
+                        <ul class="breadcrumb-menu">
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">// april 4
+                                2018</time></a>
+                          </li>
+                          <li class="breadcrumb-menu__item">
+                            <a href="" class="breadcrumb-menu__link">// 5 comments</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <p class="news__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem
+                        qui
+                        omnis recusandae deserunt quia. Numquam, debitis! Incidunt consectetur eum laboriosam eveniet
+                        odit
+                        recusandae labore esse beatae, asperiores, quo eius voluptatum, minus excepturi deserunt
+                        adipisci
+                        totam error ab sequi assumenda.</p>
+
+                    </div>
+                  </div>
+                </article>
+                <!-- NEWS -->
+              </div>
+              <!-- NEWS-BLOCK -->
+
+
+            </div>
+
+            <!-- ASIDE -->
+            <aside class="sidebar">
+              <div class="sidebar__wrap">
+
+                <!-- ASIDE-SEARCH -->
+                <form class="sidebar__search">
+                  <input type="search" class="sidebar__input" placeholder="to search, typeand hit here">
+
+                  <!-- <label class="range">
+                    <span class="range__number">0%</span>
+                    <input class="range__input" type="range" step="1" min="1" max="100">
+                  </label> -->
+                </form>
+                <!-- ASIDE-SEARCH -->
+
+                <!-- TABBER -->
+                <div class="tabber">
+                  <div class="tabber__wrap">
+                    <!-- tabber__tabs -->
+                    <div class="tabber__tabs">
+                      <button class="tabber__handler tabber__handler--current">popular</button>
+                      <button class="tabber__handler">recent</button>
+                      <button class="tabber__handler">comments</button>
+                      <button class="tabber__handler">tags</button>
+                    </div>
+                    <!-- tabber__tabs -->
+
+                    <!-- tabber__content -->
+                    <div class="tabber__content">
+
+                      <!-- tabber__post -->
+                      <div class="tabber__post" tabindex="0">
+
+                        <div class="tabber__img" tabindex="0">
+                          <img src="" alt="" class="tabber__pic">
+                        </div>
+                        <div class="tabber__content">
+
+                          <h4 class="tabber__title" tabindex="0">Fly Fishers Serving as Transports for Noxious Little
+                            Invaders</h4>
+
+                          <ul class="breadcrumb-menu">
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">august 4
+                                  2010</time></a>
+                            </li>
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link">8 comments</a>
+                            </li>
+                          </ul>
+
+                        </div>
+
+                      </div>
+                      <!-- tabber__post -->
+
+                      <!-- tabber__post -->
+                      <div class="tabber__post" tabindex="0">
+
+                        <div class="tabber__img" tabindex="0">
+                          <img src="" alt="" class="tabber__pic">
+                        </div>
+                        <div class="tabber__content">
+
+                          <h4 class="tabber__title" tabindex="0">Fly Fishers Serving as Transports for Noxious Little
+                            Invaders</h4>
+
+                          <ul class="breadcrumb-menu">
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">august 4
+                                  2010</time></a>
+                            </li>
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"> 8 comments</a>
+                            </li>
+                          </ul>
+
+                        </div>
+
+                      </div>
+                      <!-- tabber__post -->
+
+                      <!-- tabber__post -->
+                      <div class="tabber__post" tabindex="0">
+
+                        <div class="tabber__img" tabindex="0">
+                          <img src="" alt="" class="tabber__pic">
+                        </div>
+                        <div class="tabber__content">
+
+                          <h4 class="tabber__title" tabindex="0">Fly Fishers Serving as Transports for Noxious Little
+                            Invaders</h4>
+
+                          <ul class="breadcrumb-menu">
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">august 4
+                                  2010</time></a>
+                            </li>
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"> 8comments</a>
+                            </li>
+                          </ul>
+
+                        </div>
+
+                      </div>
+                      <!-- tabber__post -->
+
+                      <!-- tabber__post -->
+                      <div class="tabber__post" tabindex="0">
+
+                        <div class="tabber__img" tabindex="0">
+                          <img src="" alt="" class="tabber__pic">
+                        </div>
+                        <div class="tabber__content">
+
+                          <h4 class="tabber__title" tabindex="0">Fly Fishers Serving as Transports for Noxious Little
+                            Invaders</h4>
+
+                          <ul class="breadcrumb-menu">
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">august 4
+                                  2010</time></a>
+                            </li>
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"> 8comments</a>
+                            </li>
+                          </ul>
+
+                        </div>
+
+                      </div>
+                      <!-- tabber__post -->
+
+                      <!-- tabber__post -->
+                      <div class="tabber__post" tabindex="0">
+
+                        <div class="tabber__img" tabindex="0">
+                          <img src="" alt="" class="tabber__pic">
+                        </div>
+                        <div class="tabber__content">
+
+                          <h4 class="tabber__title" tabindex="0">Fly Fishers Serving as Transports for Noxious Little
+                            Invaders</h4>
+
+                          <ul class="breadcrumb-menu">
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"><time pubdate datetime="2018-04-04">august 4
+                                  2010</time></a>
+                            </li>
+                            <li class="breadcrumb-menu__item">
+                              <a href="" class="breadcrumb-menu__link"> 8 comments</a>
+                            </li>
+                          </ul>
+
+                        </div>
+
+                      </div>
+                      <!-- tabber__post -->
+
+
+                    </div>
+                    <!-- tabber__content -->
+                  </div>
+                </div>
+                <!-- TABBER -->
+
+                <!-- BANNERS -->
+                <div class="banners">
+                  <div class="banners__wrap">
+                    <div class="banners__img">
+                      <img src="" alt="" class="banners__pic">
+                    </div>
+                    <div class="banners__img">
+                      <img src="" alt="" class="banners__pic">
+                    </div>
+                  </div>
+                </div>
+                <!-- BANNERS -->
+
+                <!-- VIDEO -->
+                <div class="video">
+                  <div class="video__wrap">
+                    <video src="https://github.com/GarryVar/GarryVar.github.io/blob/master/agency/video/logo.mp4"
+                      class="video__player" controls width="260" height="156" preload="metadata"></video>
+                    <h4 class="video__title"></h4>
+                  </div>
+                </div>
+                <!-- VIDEO -->
+
+                <!-- TWITTER -->
+                <div class="twitter">
+                  <div class="twitter__wrap">
+
+                    <!-- CLOUD -->
+                    <div class="cloud twitter__cloud">
+                      <p class="cloud__text">
+                        <a href="" class="cloud__mail-link">@laurakalbag</a>
+                        I will be very soon. As a result of your previous recommendation on a blog post so it happens.
+                        Now just a few more letters here <br>
+                        <span class="data-notice"> 31 minutes ago</span>
+                      </p>
+                    </div>
+
+                    <!-- CLOUD -->
+                    <div class="twitter__container">
+                      <span class="twitter__logo"></span>
+                      <a href="http://twitter.com" class="twitter__link">follow on Twitter...</a>
+                    </div>
+
+                  </div>
+                </div>
+                <!-- TWITTER -->
+
+              </div>
+            </aside>
+            <!-- ASIDE -->
+          </div>
+        </section>
+        <!-- CATEGORIES -->
+
+      </div>
+    </main>
+    <!-- MAIN -->
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer" aria-label="Content information">
+      <div class="inner">
+        <div class="footer__container">
+          <!-- footer__top -->
+          <article class="footer__top">
+            <div class="footer__top-wrap">
+
+              <ul class="breadcrumb-menu">
+                <li class="breadcrumb-menu__item">
+                  <a href="" class="breadcrumb-menu__link">// Elements</a>
+                </li>
+                <li class="breadcrumb-menu__item">
+                  <a href="" class="breadcrumb-menu__link">// Full Width</a>
+                </li>
+                <li class="breadcrumb-menu__item">
+                  <a href="" class="breadcrumb-menu__link">// Contact Form</a>
+                </li>
+                <li class="breadcrumb-menu__item">
+                  <a href="" class="breadcrumb-menu__link">// Another 3.0 Menu</a>
+                </li>
+              </ul>
+              <button class="button footer__back-to-top">Back to top</button>
+            </div>
+          </article>
+          <!-- footrt__top -->
+
+          <!-- footer__main -->
+          <article class="footer__main">
+
+            <div class="footer__main-column">
+              <h2 class="footer__header">About duplex</h2>
+              <p class="footer__main-text">he Duplex theme comes with support for
+                WP3.0 menus and an extensive set of
+                back-end options.
+              </p>
+              <p class="footer__main-text">The theme supports 10 widget locations and 8
+                custom-made widgets; 300x200 Ad
+                Widget, 125x125 Ads Widget, 120x240 Ad
+                Widget, Flickr Photos Widget, Latest Tweets Widget, Tabbed Content Widget, RSS Subscribers and Followers
+                Widget and a
+                Video Widget - Phew!
+              </p>
+              <p class="footer__main-text">Inbuilt related posts, contact form, author
+                bios, archives template, threaded
+                comments, shortcodes, image slider.... you
+                get the idea ;)
+              </p>
+            </div>
+            <div class="footer__main-column">
+              <h2 class="footer__header">Latest Posts</h2>
+              <h3 class="footer__main-subheader">
+                Skype 5.0 Beta for Mac Arrives… But Where’s Facebook?
+              </h3>
+              <h3 class="footer__main-subheader">Apple Fails to Fix iPhone Daylight Savings Time Alarm Bug</h3>
+              <h3 class="footer__main-subheader">71% of Internet Users Run Latest Version of Their Browsers</h3>
+              <h3 class="footer__main-subheader">Netgear Wants to Wirelessly
+                Connect New Televisions
+                With Homegrown Talent, a Rising Power on Long Island
+                Displaying Shooting Touch, Knicks Return to Prime Time
+              </h3>
+            </div>
+            <div class="footer__main-column">
+              <h2 class="footer__header">Flickr Photostream</h2>
+              <div class="footer__thumb-gallery">
+                <div class="footer__thumb-gallery-row">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                </div>
+                <div class="footer__thumb-gallery-row">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                </div>
+                <div class="footer__thumb-gallery-row">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                  <img class="footer__thumb-img" src="" alt="">
+                </div>
+              </div>
+            </div>
+
+          </article>
+          <!-- footer__main -->
+
+          <!-- footer__copyright -->
+          <article class="footer__copyright">
+            <div class="footer__copyright-wrapper">
+              <p class="footer__copyright-text">Copyright 2010 <b>Duplex</b> . All Rights Reserved.</p>
+              <p class="footer__copyright-text">Powered by WordPress. <strong>Duplex theme by Orman</strong></p>
+            </div>
+          </article>
+          <!-- footer__copyright -->
+        </div>
+
+      </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <div class="large-pic">
+      <div class="large-pic__container">
+        <img class="large-pic__img" src="img/gallery/front-end03.jpg">
+      </div>
+      <button class="button large-pic__close" aria-label="Close registartion form"></button>
+    </div>
+
+  </div>
+  <!--- SCRIPTS --->
+  <script src="js/main.js"></script>
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script src="js/jquery-3.4.0.min.js"></script>
+  <script src="js/jquery-migrate-1.2.1min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/wow.min.js"></script>
+
+  <script>new WOW().init();</script>
+
+  <!--- SCRIPTS --->
+
+</body>
+
+</html>
